@@ -17,6 +17,7 @@
 </nav>
 
 <main>
+    <!-- About page content for the project. -->
     <h2 id="AboutTitle">About Page</h2>
 
     <div class="containerAbout">

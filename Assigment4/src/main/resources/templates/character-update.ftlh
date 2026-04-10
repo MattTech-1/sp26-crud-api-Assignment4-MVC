@@ -17,6 +17,7 @@
 </nav>
 
 <main>
+    <!-- Form used to edit an existing character. -->
     <h1 id="indexTitle">Edit Character: ${character.name}</h1>
 
     <div class="containerNew">

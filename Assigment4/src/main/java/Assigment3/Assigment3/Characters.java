@@ -12,6 +12,7 @@ import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import org.springframework.format.annotation.DateTimeFormat;
 
+/** Represents one character stored in the database. */
 @Entity
 @Table(name = "characters")
 public class Characters {
