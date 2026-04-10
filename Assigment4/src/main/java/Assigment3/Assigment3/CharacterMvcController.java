@@ -12,19 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * MVC Controller — returns FreeMarker view names, not JSON.
- * Base path: /characters
- *
- * URL Map:
- *   GET  /characters                  → character-list  (all characters)
- *   GET  /characters/{id}             → character-details (one character)
- *   GET  /characters/search?name=...  → character-list  (filtered)
- *   GET  /characters/create           → character-create (blank form)
- *   POST /characters/create           → saves new, redirects to details
- *   GET  /characters/updateForm/{id}  → character-update (pre-filled form)
- *   POST /characters/update           → saves edit, redirects to details
- *   GET  /characters/delete/{id}      → deletes, redirects to list
- *   GET  /characters/about            → about page
+ * Handles page routes for the FreeMarker views.
  */
 @Controller
 @RequestMapping("/characters")

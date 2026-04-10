@@ -17,6 +17,7 @@
 </nav>
 
 <main>
+    <!-- Details page for a single character. -->
     <h1 id="detailTitle" style="color: rgb(214, 52, 52);">${character.name}</h1>
     <p style="margin-left:5px;">${character.role} &bull; ${character.universe}</p>
     <hr>

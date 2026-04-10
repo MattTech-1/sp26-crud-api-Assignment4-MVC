@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+/** Contains the business logic for character operations. */
 @Service
 public class CharacterService {
 

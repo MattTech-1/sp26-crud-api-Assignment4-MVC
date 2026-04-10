@@ -18,6 +18,7 @@
 </nav>
 
 <main>
+    <!-- Gallery page that lists all characters or search results. -->
     <h1 id="indexTitle">Nintendo Character Gallery</h1>
     <h2 id="indexTitle">Explore the legendary heroes of the Mushroom Kingdom and beyond!</h2>
 

@@ -17,6 +17,7 @@
 </nav>
 
 <main>
+    <!-- Form used to create a new character. -->
     <h1 id="indexTitle">New Character Form</h1>
 
     <div class="containerNew">

@@ -14,8 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * REST API controller — returns JSON.
- * Base path: /api/characters
+ * Handles JSON API requests for characters.
  */
 @RestController
 @RequestMapping("/api/characters")
